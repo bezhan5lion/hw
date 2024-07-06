@@ -26,6 +26,7 @@ class E34FindLargestNumberTester {
     @AfterEach
     void restoreStreams() {
         System.setOut(originalOut);
+
         System.setIn(originalIn);
     }
 
