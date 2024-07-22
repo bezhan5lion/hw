@@ -1,11 +1,20 @@
 package org.example.e55;
 
+import java.util.Scanner;
+
 public class E55DoWhileLoop {
     public static void main(String[] args) {
         // Create a Scanner object to read input
-
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter your favorite number:");
+        int number= input.nextInt();
         // Declare a variable for user input
-
+        while (number!=7){
+            System.out.println("Enter your favorite number:");
+            number= input.nextInt();
+            System.out.println("You entered: "+number);
+        }
+        System.out.println("You've entered "+number+"! Loop ends.");
         // Use a do-while loop to collect user input until they enter the number 7
         // Inside the loop:
         // Print "Enter your favorite number:"
