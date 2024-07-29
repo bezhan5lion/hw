@@ -6,7 +6,7 @@ public class E23StringEqualsIfConditions {
         String program="Java";
 
         // Check if the string equals "Java"
-        if (program == "Java"){
+        if (program.equals("Java")){
             System.out.println("The programming language is Java.");
         }else {
             System.out.println("The programming language is not Java.");
