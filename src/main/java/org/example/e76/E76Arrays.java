@@ -8,6 +8,13 @@ public class E76Arrays {
                 {4, 1.5, 6.1, 1},
                 {1.2, 3.1, 4, 1.6}
         };
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < 4; j++) {
+
+                System.out.print(a[i][j]*2+" ");
+            }
+            System.out.println();
+        }
 
         // Use nested loops to iterate through the 2D array and double the value of each element
 

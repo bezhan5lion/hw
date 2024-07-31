@@ -4,6 +4,12 @@ public class E84NestedForLoops {
     public static void main(String[] args) {
         // Declare and initialize the 2D array to store the multiplication table values
         int[][] table = new int[5][10];
+        for (int i = 6; i < 11; i++) {
+            for (int j =1; j < 11; j++) {
+                System.out.print(j*i+" ");
+            }
+            System.out.println();
+        }
 
         // Use nested loops to fill the 2D array with multiplication table values
 
