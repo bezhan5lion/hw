@@ -17,11 +17,8 @@ public class E79Arrays {
             }
             System.out.println(sum[i]);
         }
-
         // Use nested loops to iterate through the 2D array and calculate the sum of each row
-
         // Store the sums in the new array
-
         // Print the values of the new array
     }
 }
