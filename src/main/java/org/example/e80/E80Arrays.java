@@ -10,7 +10,7 @@ public class E80Arrays {
         };
         int sum=0;
         for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a.length[0]; j++) {
+            for (int j = 0; j < a.length; j++) {
                 if (a[i][j]%2==1)
                     sum=a[i][j];
                 }
