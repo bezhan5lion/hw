@@ -5,12 +5,12 @@ public class E80Arrays {
         // Declare and initialize the 2D array with the given values
         int[][] a = {
                 {-5, -2, -3, 7},
-                {1, -5, -2, 2},
+                {1, -5, -3, 2},
                 {1, -2, 3, -4}
         };
         int sum=0;
         for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < 4; j++) {
+            for (int j = 0; j < a.length[0]; j++) {
                 if (a[i][j]%2==1)
                     sum=a[i][j];
                 }
