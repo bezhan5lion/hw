@@ -15,7 +15,5 @@ public class E92StringManipulations {
         // Use the endsWith() method to check if 's1' ends with "are" and print the result
 
         // Use the endsWith() method to check if 's1' ends with "you" and print the result
-        String str = "0123456789";
-        System.out.println(str.substring(4));
     }
 }
