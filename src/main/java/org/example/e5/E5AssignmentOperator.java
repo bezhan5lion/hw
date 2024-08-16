@@ -9,16 +9,16 @@ public class E5AssignmentOperator {
         int age = 50;
 
         // Step 3: Assign the value of age to iq
-        int iq = age;
+        int iq=age;
+
+        System.out.println(name);
+        System.out.print(age);
+        System.out.println(iq);
 
         // Step 4: Print the name
-        System.out.println(name);
+
 
         // Step 5: Print the age and iq on the same line
 
-        System.out.print(age);
-        System.out.print(iq);
-
-        }
-
+    }
 }

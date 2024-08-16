@@ -8,14 +8,9 @@ public class E78Arrays {
                 {1, -5, -2, 2},
                 {1, -2, 3, -4}
         };
-        int sum=0;
+
         // Use nested loops to iterate through the 2D array and calculate the sum of all elements
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < 4; j++) {
-                sum=sum+a[i][j];
-            }
-        }
-        System.out.println(sum);
+
         // Print the calculated sum
     }
 }

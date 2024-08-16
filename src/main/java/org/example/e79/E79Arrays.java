@@ -9,16 +9,13 @@ public class E79Arrays {
                 {3, 5, 3}, //sum = 11
                 {0, 1, 2}  //sum = 3
         };
-        int [] sum = new int[4];
+
         // Declare an array to store the sums of each row
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < 3; j++) {
-                sum[i]=sum[i]+a[i][j];
-            }
-            System.out.println(sum[i]);
-        }
+
         // Use nested loops to iterate through the 2D array and calculate the sum of each row
+
         // Store the sums in the new array
+
         // Print the values of the new array
     }
 }

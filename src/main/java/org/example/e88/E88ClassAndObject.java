@@ -4,26 +4,7 @@ public class E88ClassAndObject {
 
     public static void main(String[] args) {
         // Create a class named 'Dog'
-        Dog husky=new Dog();
-        husky.breed="Husky";
-        husky.color="White";
-        husky.bark();
-        husky.run();
-        husky.play();
 
-        Dog bulldog=new Dog();
-        bulldog.breed="Bulldog";
-        bulldog.color="Black";
-        bulldog.bark();
-        bulldog.run();
-        bulldog.play();
-
-        Dog labrador=new Dog();
-        labrador.breed="Labrador";
-        labrador.color="Brown";
-        labrador.bark();
-        labrador.run();
-        labrador.play();
         // Declare String variables named 'breed', 'name', and 'color'
 
         // Declare methods named 'bark()', 'run()', and 'play()' that print messages in the specified format

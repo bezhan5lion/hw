@@ -6,12 +6,7 @@ public class E83NestedForLoops {
         int[][] table = new int[5][10];
 
         // Use nested loops to fill the 2D array with multiplication table values
-        for (int i = 1; i < 6; i++) {
-            for (int j =1; j < 11; j++) {
-                System.out.print(j*i+" ");
-            }
-            System.out.println();
-        }
+
         // Use nested loops to iterate through the 2D array and print the pattern
 
     }
