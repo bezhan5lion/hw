@@ -5,34 +5,17 @@ import java.util.Scanner;
 public class E99StringManipulations {
     public static void main(String[] args) {
         // Create a Scanner object to read input from the console
-        Scanner sc = new Scanner(System.in);
-        // Prompt the user to input a string
+        Scanner scanner = new Scanner(System.in);
+        // Step 3: Prompt the User for Input
         System.out.println("Please enter a string:");
-
-        // Read the input string
-        String input = sc.nextLine();
-
-        // Remove all spaces and convert the string to lowercase
-        String str = input;
-
-        String original=input.replaceAll(" ", "").toLowerCase();
-        // Check if the string is a palindrome
-        StringBuilder str1 = new StringBuilder(original);
-            str1.reverse();
-        System.out.println(original);
-        System.out.println(str1);
-        boolean cond = str1.equals(str);
-            if (cond){
-                System.out.println(true);
-            }else {
-                System.out.println(false);
-            }
-
+        String input = scanner.nextLine();
+        // Step 4: Check if the String is a Palindrome
+        String str1 = input.replaceAll("\\s+", "").toLowerCase();
+        String rev = new StringBuilder(str1).reverse().toString();
+        boolean isPalindrome = str1.equals(rev);
+        // Step 5: Print the Result
+        System.out.println(isPalindrome);
         // Print "true" if the string is a palindrome, and "false" otherwise
-
-
         // Step 2: Create a Scanner object to read input from the console
-
-
     }
 }

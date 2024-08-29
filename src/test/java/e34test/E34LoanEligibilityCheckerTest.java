@@ -26,7 +26,6 @@ class E34LoanEligibilityCheckerTest {
     @AfterEach
     void restoreStreams() {
         System.setOut(originalOut);
-
         System.setIn(originalIn);
     }
 

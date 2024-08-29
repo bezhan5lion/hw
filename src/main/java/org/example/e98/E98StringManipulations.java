@@ -7,7 +7,5 @@ public class E98StringManipulations {
         // Manipulate the string to create a new string "Welcome Syntax family"
         System.out.println("Welcome "+given.substring(6,12)+" family");
         // Print the new string
-
-
     }
 }

@@ -11,9 +11,10 @@ public class E103StringManipulations {
         String input= sc.nextLine();
 
         for (int i = 0; i < input.length(); i++) {
-            char l=input.charAt(i);
-            String s = Character.toString(l);
-            System.out.print(s+" ");
+            System.out.print(input.charAt(i));
+            if (i < input.length()-1){
+                System.out.print(" ");
+            }
         }
         System.out.println();
     }
